@@ -7,6 +7,7 @@ for test_case in range(1, T + 1):
     s = input()
     mirrored_s = ''
 
+    # 거울이니까 거꾸로 탐색
     for ch in s[::-1]:
         if ch == 'b':
             mirrored_s += 'd'

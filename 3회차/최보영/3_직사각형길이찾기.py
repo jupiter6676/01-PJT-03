@@ -7,6 +7,7 @@ for test_case in range(1, T + 1):
     lst = list(map(int, input().split()))
     cnt = dict()
 
+    # key: 변의 길이, value: 변의 길이가 나온 횟수
     for num in lst:
         cnt[num] = cnt.get(num, 0) + 1
     
